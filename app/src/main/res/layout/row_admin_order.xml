@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="14dp"
+    android:layout_margin="8dp"
+    android:background="@android:color/white"
+    android:elevation="4dp">
+
+    <TextView
+        android:id="@+id/txtAdminOrderId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order ID"
+        android:textStyle="bold"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtAdminOrderDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order date"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/txtAdminOrderTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/txtAdminOrderStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:layout_marginTop="6dp"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <Button
+        android:id="@+id/btnSendToCourier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send to courier"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:textColor="@android:color/white"/>
+</LinearLayout>

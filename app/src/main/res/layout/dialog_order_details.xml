@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtDialogOrderId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order ID:" />
+
+        <TextView
+            android:id="@+id/txtDialogOrderDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order date:" />
+
+        <TextView
+            android:id="@+id/txtDialogOrderTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total:" />
+
+        <TextView
+            android:id="@+id/txtDialogDeliveryDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delivery date:" />
+
+        <TextView
+            android:id="@+id/txtDialogDeliveryTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delivery time:" />
+
+        <!-- כותרת רשימת הפריטים -->
+        <TextView
+            android:id="@+id/txtDialogItemsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Items:"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp" />
+
+
+        <LinearLayout
+            android:id="@+id/layoutOrderItems"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="4dp" />
+
+        <Button
+            android:id="@+id/btnUpdateDelivery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update delivery"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>

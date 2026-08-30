@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_margin="8dp"
+    android:background="@android:color/white"
+    android:elevation="4dp">
+
+    <TextView
+        android:id="@+id/txtCourierOrderDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order date"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/txtCourierOrderTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/txtCourierDeliveryDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delivery date"/>
+
+    <TextView
+        android:id="@+id/txtCourierDeliveryTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delivery time"/>
+
+    <Button
+        android:id="@+id/btnCourierTakeDelivery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Delivery"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.finalproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+
+
+    <fragment
+        android:id="@+id/nav_products"
+        android:name="com.example.finalproject.ui.Products.ProductsFragment"
+        android:label="@string/menu_products"
+        tools:layout="@layout/fragment_products" />
+    <fragment
+        android:id="@+id/nav_cart"
+        android:name="com.example.finalproject.ui.Cart.CartFragment"
+        android:label="@string/menu_cart"
+        tools:layout="@layout/fragment_cart" />
+    <fragment
+        android:id="@+id/nav_payment"
+        android:name="com.example.finalproject.ui.Payment.PaymentDetailsFragment"
+        android:label="@string/menu_payment"
+        tools:layout="@layout/fragment_payment_details_activity" />
+    <fragment
+        android:id="@+id/nav_orders"
+        android:name="com.example.finalproject.ui.Orders.OrdersFragment"
+        android:label="Orders"
+        tools:layout="@layout/fragment_orders" />
+    <fragment
+        android:id="@+id/nav_orders_confirmation"
+        android:name="com.example.finalproject.ui.Payment.OrderConfirmationFragment"
+        android:label="Order Confirmation"
+        tools:layout="@layout/fragment_order_confirmation_activity"/>
+
+</navigation>
